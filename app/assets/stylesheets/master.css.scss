@@ -1,0 +1,52 @@
+
+.navbar {
+  border-radius:0;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: none;
+}
+
+
+.hero {
+  background: url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:370px;
+  padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6, {
+  margin:0;
+}
+
+.navbar {margin-bottom: -50px;}
+
+.frosty {
+  // background: rgba(0,0,0, 0.5);
+  color: black;
+}
+
+.frosty h1 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+}
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+}
+.btn {
+  border-radius:0;
+}
+
+
+
+
+
+
+
+
+
