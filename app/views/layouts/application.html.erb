@@ -9,10 +9,16 @@
 <body>
 <%= render "static_pages/nav" %>  
 
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
-
 <%= yield %>
 
+  </div>
+  <div id="footer">
+    <div class="container">
+      <b>Footer Here</b>
+      <br />
+      <%= link_to 'Link', '#' %>
+    </div>
+  </div>
+  
 </body>
 </html>
