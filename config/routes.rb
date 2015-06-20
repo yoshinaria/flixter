@@ -49,9 +49,9 @@ Flixter::Application.routes.draw do
   #   resources :photos, concerns: :toggleable
 
   # Example resource route within a namespace:
-  #   namespace :admin do
+ namespace :instructor do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
+       resources :courses, :only => [:new, :create, :show]
+     end
 end

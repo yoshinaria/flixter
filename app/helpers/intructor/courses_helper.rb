@@ -1,0 +1,2 @@
+module Intructor::CoursesHelper
+end
