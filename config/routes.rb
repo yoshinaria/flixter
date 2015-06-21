@@ -53,6 +53,8 @@ Flixter::Application.routes.draw do
  namespace :instructor do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
-       resources :courses, :only => [:new, :create, :show]
-     end
+    resources :courses, :only => [:new, :create, :show] do
+      resources :sections, :only => [:new, :create]
+    end
+  end
 end
