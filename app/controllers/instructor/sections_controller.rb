@@ -8,7 +8,7 @@ before_action :require_authorized_for_current_course
   end
 
   def create
-    @section = @course.sections.create(section_params)
+    @section = current_course.sections.create(section_params)
     redirect_to instructor_course_path(current_course)
   end
 
@@ -27,7 +27,7 @@ before_action :require_authorized_for_current_course
   helper_method :current_course
 
   def current_course
-    @current_course || = Course.find(params[:course_id])
+    @current_course ||= Course.find(params[:course_id])
   end
 
   def section_params
