@@ -83,13 +83,16 @@ body {
 
 .lesson {
   background-color:black;
-  margin: 30px;
+  margin-top: 10px;
+  height:130px;
+  font-size: 15px;
 }
 
 .lesson a {
-    color:white;
-    font-family: "Helvetica Neue",Helvetica;
-    font-weight:100;
+  color:white;
+  font-family: "Helvetica Neue",Helvetica;
+  font-weight:100;
+  font-size: 15px;
 }
 
 .lesson a b {
